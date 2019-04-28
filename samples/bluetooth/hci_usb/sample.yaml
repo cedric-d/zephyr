@@ -4,5 +4,5 @@ tests:
   sample.bluetooth.hci_usb:
     harness: bluetooth
     depends_on: usb_device
-    platform_whitelist: quark_se_c1000_devboard nrf52840_pca10056
+    platform_whitelist: quark_se_c1000_devboard nrf52840_pca10056 ublox_ninab30_evk
     tags: usb bluetooth
